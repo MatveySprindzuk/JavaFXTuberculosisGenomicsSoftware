@@ -1,5 +1,5 @@
 #!/bin/bash
-list=`cat SRAIdFromPythonInput.txt` # list of the SRA record file IDs.
+list=`cat SRAIdentifiers.txt` # list of the SRA record file IDs.
 for i in $list
 do
 	echo $i
